@@ -18,7 +18,8 @@
 
 
 timestamp="$(date +'%b-%d-%y')"
-sudo tar -cvpzf /run/media/felipe/341A-4340/backup-${timestamp}.tar.gz --absolute-names /home/felipe/backups
+# eventually 'sudo'
+tar -cvpzf /run/media/felipe/341A-4340/backup-${timestamp}.tar.gz --absolute-names /home/felipe/backups
 
 
 
