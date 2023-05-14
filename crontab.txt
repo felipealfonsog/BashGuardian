@@ -1,0 +1,3 @@
+0 14 * * * ./backups.sh
+0 14 * * * ./remove-backups.sh
+
