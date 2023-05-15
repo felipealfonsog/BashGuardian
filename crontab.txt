@@ -6,3 +6,6 @@ sudo systemctl enable cronie.service
 0 14 * * * ./backups.sh
 0 14 * * * ./remove-backups.sh
 
+# run every minute to test
+1 * * * * /bin/echo testing Cron >> /home/felipe/test.txt
+
