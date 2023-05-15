@@ -1,3 +1,8 @@
+
+sudo systemctl start cronie.service
+sudo systemctl enable cronie.service
+
+
 0 14 * * * ./backups.sh
 0 14 * * * ./remove-backups.sh
 
