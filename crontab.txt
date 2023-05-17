@@ -13,3 +13,15 @@ sudo systemctl enable cronie.service
 # run every minute to test
 1 * * * * /bin/echo testing Cron >> /home/felipe/test.txt
 
+--
+
+
+/Volumes/Macintosh\ HD/Users/felipe/Downloads
+
+
+
+0 14 * * * ./Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 03 * * * ./Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 19 * * * ./Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+1 * * * *  /bin/echo testing Cron >> /Volumes/Macintosh\ HD/Users/felipe/Downloads/test.txt
+
