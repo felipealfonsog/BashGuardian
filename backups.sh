@@ -2,9 +2,8 @@
 #
 #----------
 #BACKUP SYSTEM IN BASH
-#DEVELOPED BY Felipe Alfonso Gonzalez
+#ENGINEER: Felipe Alfonso Gonzalez
 #f.alfonso@res-ear,ch
-#----------
 #
 #
 
