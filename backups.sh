@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #----------
-#BACKUP SYSTEM IN BASH
+#BACKUP SMALL SYSTEM IN BASH
 #ENGINEER: Felipe Alfonso Gonzalez
 #f.alfonso@res-ear,ch
 #
@@ -19,7 +19,7 @@
 timestamp="$(date +'%b-%d-%y')"
 # eventually 'sudo'
 #
-# For MacOS
+# Configuration - Path For MacOS Backups
 # tar -zvcf /Volumes/2TBMACSDBK/backups-mac/backup-${timestamp}.tar.gz -P /Volumes/Macintosh\ HD/Users/felipe/Downloads
 
 #
