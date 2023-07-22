@@ -9,7 +9,7 @@ BACKUP_SCRIPT_DIR="$HOME/Downloads/bash-backups-scripts/backups.sh"  # Cambia es
 SOURCE_DIR="$HOME/Downloads"       # Cambia esta ruta al directorio que deseas respaldar
 BACKUP_DIR="/Volumes/2TBMACSDBK/backups-mac-gpg"  # Cambia esta ruta al directorio donde deseas guardar los respaldos
 
-ENCRYPT_PASSWORD="fafarafa"
+ENCRYPT_PASSWORD="-----"
 DAYS_TO_KEEP_BACKUPS=3
 
 # Variables de intervalo de tiempo para cron en Linux
