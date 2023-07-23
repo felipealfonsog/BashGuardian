@@ -11,7 +11,11 @@ BACKUP_SCRIPT_DIR="$HOME/Downloads/bash-backups-scripts/backups.sh"  # Cambia es
 SOURCE_DIR="$HOME/Downloads"       # Cambia esta ruta al directorio que deseas respaldar
 BACKUP_DIR="/Volumes/2TBMACSDBK"  # Cambia esta ruta al directorio donde deseas guardar los respaldos
 
-ENCRYPT_PASSWORD="------"
+ENCRYPT_PASSWORD="-------"
+#to decrypt the file and it's gonna untar it : gpg --decrypt --batch --passphrase your_passphrase encrypted_file.tar.gz.gpg | tar xzvf -
+
+
+
 DAYS_TO_KEEP_BACKUPS=3
 
 CRON_MINUTE_LINUX=*     # Configura el minuto en números enteros (0-59)
@@ -36,7 +40,7 @@ function create_backup_directory() {
 
 function perform_backup() {
     create_backup_directory
-    local backup_file="$BACKUP_DIR/backup_$(date +%Y%m%d_%H%M%S).tar.gz"
+    local backup_file="$BACKUP_DIR/backup_mac_$(date +%Y%m%d_%H%M%S).tar.gz"
     echo "Realizando respaldo en: $backup_file"
     tar -czf "$backup_file" -C "$SOURCE_DIR" .
     echo "Encriptando el respaldo..."
@@ -50,7 +54,7 @@ function perform_backup() {
 }
 
 function clean_old_backups() {
-    find "$BACKUP_DIR" -name "backup_*.tar.gz.gpg" -mtime +$DAYS_TO_KEEP_BACKUPS -exec rm -P {} \;
+    find "$BACKUP_DIR" -name "backup_mac_*.tar.gz.gpg" -mtime +$DAYS_TO_KEEP_BACKUPS -exec rm -P {} \;
     echo "Backups antiguos limpiados."
 }
 
