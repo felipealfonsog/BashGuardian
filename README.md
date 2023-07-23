@@ -15,11 +15,11 @@ Bash script for backups/encrypted on Unix-like (Linux & macOS) systems.
 #### Decrypt and untar 
 
 ```
-gpg --decrypt --batch --passphrase your_passphrase encrypted_file.tar.gz.gpg | tar xzvf -
+gpg --decrypt --batch --passphrase passphrase encrypted_file.tar.gz.gpg | tar xzvf -
 ```
 
 ```
-gpg --decrypt --batch --passphrase \"your_passphrase\" \"encrypted_file.tar.gz.gpg\" | tar xzvf - --directory \"$HOME/Documents\"
+gpg --decrypt --batch --passphrase \"passphrase\" \"backup_20230723_000101.tar.gz.gpg\" | tar xzvf - --directory \"$HOME/Documents/backedup-unencryped\"
 ```
 
 #### Contributing
