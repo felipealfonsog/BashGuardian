@@ -1,5 +1,5 @@
 # BashGuardian
-Collection of bash scripts for backups on Unix like systems
+Bash script for backups/encrypted on Unix-like (Linux & macOS) systems.
 
 ![Version](https://img.shields.io/github/release/felipealfonsog/BashGuardian.svg?style=flat&color=blue)
 ![Main Language](https://img.shields.io/github/languages/top/felipealfonsog/BashGuardian.svg?style=flat&color=blue)
@@ -16,6 +16,10 @@ Collection of bash scripts for backups on Unix like systems
 
 ```
 gpg --decrypt --batch --passphrase your_passphrase encrypted_file.tar.gz.gpg | tar xzvf -
+```
+
+```
+gpg --decrypt --batch --passphrase \"your_passphrase\" \"encrypted_file.tar.gz.gpg\" | tar xzvf - --directory \"$HOME/Documents\"
 ```
 
 #### Contributing
