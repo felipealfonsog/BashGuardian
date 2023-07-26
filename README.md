@@ -55,16 +55,11 @@ Hello! My name is Felipe, and I'm a passionate Computer Science Engineer. I'm al
 - **GitHub:** [felipealfonsog](https://github.com/felipealfonsog)
 
 
-## Buy Me a Coffee ☕
+#### Buy Me a Coffee ☕
 
 Your support and contributions are greatly appreciated! Thank you for your help in making this project better. 🙌
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/felipealfonsog)
+- [![Sponsor on Paypal](https://img.shields.io/badge/Sponsor%20on-Paypal-blue)](https://paypal.com/felipealfonsog)
+- [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-orange)](https://www.buymeacoffee.com/felipealfonsog)
+- [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on-GitHub-green)](https://github.com/sponsors/felipealfonsog)
 
-## Donate with PayPal 💰
-
-[![PayPal](https://img.shields.io/badge/Donate%20with-PayPal-00457C?style=flat-square&logo=paypal&logoColor=white)](https://www.paypal.com/felipealfonsog)
-
-## Sponsor me on GitHub ❤️
-
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20me%20on-GitHub-%23EA4AAA?style=flat-square&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/felipealfonsog)
