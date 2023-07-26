@@ -54,8 +54,7 @@ Hello! My name is Felipe, and I'm a passionate Computer Science Engineer. I'm al
 - **LinkedIn:** [felipealfonsog](https://www.linkedin.com/in/felipealfonsog/)
 - **GitHub:** [felipealfonsog](https://github.com/felipealfonsog)
 
-
-#### Buy Me a Coffee ☕
+#### Support ☕
 
 Your support and contributions are greatly appreciated! Thank you for your help in making this project better. 🙌
 
