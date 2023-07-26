@@ -16,11 +16,14 @@ BashGuardian is a powerful bash script for backups and encryption on Unix-like (
 
 To decrypt and untar your files, you can use the following commands:
 
-```bash
 
+```
 gpg --decrypt --batch --passphrase passphrase encrypted_file.tar.gz.gpg | tar xzvf -
+```
 
-gpg --decrypt --batch --passphrase "passphrase" "backup_20230723_000101.tar.gz.gpg" | tar xzvf - --directory "$HOME/Documents/backedup-unencryped"
+```
+gpg --decrypt --batch --passphrase "passphrase" "backup_20230723_000101.tar.gz.gpg" | tar xzvf - --directory "$HOME/Documents/backedup-unencryped
+``````
 
 ## License 📜
 
