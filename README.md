@@ -12,7 +12,7 @@ BashGuardian is a powerful bash script for backups and encryption on Unix-like (
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
-## Decrypt and Untar 🗝️📂
+#### Decrypt and Untar 🗝️📂
 
 To decrypt and untar your files, you can use the following commands:
 
@@ -25,11 +25,11 @@ gpg --decrypt --batch --passphrase passphrase encrypted_file.tar.gz.gpg | tar xz
 gpg --decrypt --batch --passphrase "passphrase" "backup_20230723_000101.tar.gz.gpg" | tar xzvf - --directory "$HOME/Documents/backedup-unencryped
 ``````
 
-## License 📜
+#### License 📜
 
 BashGuardian is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-## Contributing 🤝
+#### Contributing 🤝
 
 Contributions to BashGuardian are more than welcome! Here's how you can contribute:
 
@@ -46,7 +46,7 @@ Contributions to BashGuardian are more than welcome! Here's how you can contribu
 - **Documentation**: Improving the documentation is always appreciated. If you find any gaps or have suggestions to enhance the project's documentation, please let me know.
 
 
-## Contact 📧
+#### Contact 📧
 
 Hello! My name is Felipe, and I'm a passionate Computer Science Engineer. I'm also the creator of this project. If you have any questions, suggestions, or just want to chat, feel free to reach out to me. I'd be more than happy to help! 😊
 
