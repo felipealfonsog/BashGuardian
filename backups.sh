@@ -36,7 +36,12 @@ DIR_BACKUPS_EXTERNAL="/Volumes/2TBMACSDBK/"  # Path to copy the .gpg file to the
 
 backup_file="$BACKUP_DIR/backup_$(date +%Y%m%d_%H%M%S).tar.gz"
 
+#********************************
+#HERE ENTER THE PASSWORD TO ENCRYPT THE FILES
+#********************************
 ENCRYPT_PASSWORD="-----"
+#********************************
+
 
 DAYS_TO_KEEP_BACKUPS=3
 
