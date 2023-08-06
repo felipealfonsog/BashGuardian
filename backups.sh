@@ -53,6 +53,7 @@ CRON_MONTH=*      # Set the month in integers (1-12). Month 7 corresponds to Jul
 CRON_YEAR=*      # Set the year or * for any year
 
 
+#Function to create backyo directory 
 function create_backup_directory() {
     if [ ! -d "$BACKUP_DIR" ]; then
         mkdir -p "$BACKUP_DIR"
