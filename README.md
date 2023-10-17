@@ -14,7 +14,7 @@ BashGuardian is a powerful bash script for backups and encryption on Unix-like (
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
-<sub>* This is currently an experimental phase where the primary focus is on making the system functional and establishing a practical and logical pathway that aligns with both my vision and the project's goals. Approaching a more stable release!</sub>
+<sub>* This is currently an experimental phase where the primary focus is on making the system functional and establishing a practical and logical pathway that aligns with both my vision and the project's goals.</sub>
 
 #### Decrypt and Untar 🗝️📂
 
@@ -52,8 +52,6 @@ Contributions to BashGuardian are more than welcome! Here's how you can contribu
 #### 📝Important (Experimental Project)
 
 [![Experimental Project](https://img.shields.io/badge/Project-Type%3A%20Experimental-blueviolet)](#)
-
-This is an experimental project aimed at bringing a PDF viewer or reader to the terminal environment. The Terminal PDF Viewer leverages the capabilities of the MuPDF library to enable users to view PDF documents directly within the terminal.
 
 <p>This project is still in its experimental stage and may have limitations in terms of features and compatibility. Use at your own discretion.</p>
 
