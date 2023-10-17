@@ -1,4 +1,4 @@
-# BashGuardian 🛡️ [(Experimental Project)](#important-experimental-project)*
+### BashGuardian 🛡️ [(Experimental Project)](#important-experimental-project)*
 
 BashGuardian is a powerful bash script for backups and encryption on Unix-like (Linux & macOS) systems. It provides an easy-to-use and secure way to protect your important files and data. 🗂️🔒
 
