@@ -42,7 +42,7 @@ backup_file="$BACKUP_DIR/backup_$(date +%Y%m%d_%H%M%S).tar.gz"
 #********************************
 #HERE ENTER THE PASSWORD TO ENCRYPT THE FILES
 #********************************
-ENCRYPT_PASSWORD="fafarafa"
+ENCRYPT_PASSWORD=""
 #********************************
 
 
