@@ -1,0 +1,39 @@
+#to start cron in Linux - Bootable 
+sudo systemctl start cronie.service
+sudo systemctl enable cronie.service
+
+#crontab Linux
+0 00 * * * /home/felipe/backups.sh
+0 03 * * * /home/felipe/backups.sh
+0 05 * * * /home/felipe/backups.sh
+0 09 * * * /home/felipe/backups.sh
+0 12 * * * /home/felipe/backups.sh
+0 15 * * * /home/felipe/backups.sh
+0 18 * * * /home/felipe/backups.sh
+0 19 * * * /home/felipe/backups.sh
+0 21 * * * /home/felipe/backups.sh
+0 22 * * * /home/felipe/backups.sh
+# run every minute to test Linux
+1 * * * * /bin/echo testing Cron >> /home/felipe/test.txt
+
+#crontab macOS
+0 00 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 03 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 05 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 09 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 12 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 15 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 18 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 19 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 21 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+0 22 * * * bash /Volumes/Macintosh\ HD/Users/felipe/Downloads/backups.sh
+# run every minute to test macOS 
+1 * * * *  /bin/echo testing Cron >> /Volumes/Macintosh\ HD/Users/felipe/Downloads/test-backups.txt
+
+#Volumes in macOS
+/Volumes/Macintosh\ HD/Users/$HOME/Downloads
+
+# when running in a SDCARD
+0 14 * * * bash /Volumes/Macintosh\ HD/Users/$HOME/Downloads/backups.sh
+1 * * * *  /bin/echo testing Cron >> /Volumes/Macintosh\ HD/Users/$HOME/Downloads/test.txt
+
