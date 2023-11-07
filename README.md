@@ -21,7 +21,7 @@ BashGuardian is a powerful bash script for backups and encryption on Unix-like (
 First download the main script: 
 
 ```
-backups_stable.sh
+curl -O  https://raw.githubusercontent.com/felipealfonsog/BashGuardian/main/backups_stable.sh
 ```
 
 then, 
