@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Variables configurables
+# Configurable variables
 ENCRYPT_BACKUP=false
 ENCRYPT_PASSWORD=""
 ADD_TO_CRON=false
@@ -10,13 +10,13 @@ CRON_DAY=*
 CRON_MONTH=*
 CRON_YEAR=*
 
-# Directorios de respaldo predeterminados
+# Default backup directories
 DIR_SRC_MACOS="$HOME/Downloads"
 DIR_SRC_LINUX="$HOME/backups"
 DIR_BACKUP_MACOS="/Volumes/2TBMACSDBK/backups"
 DIR_BACKUP_LINUX="/run/media/felipe/0C91-9A88/backups"
 
-# Función para mostrar el mensaje de bienvenida
+# Function to display the welcome message
 function show_welcome_message() {
     echo "
     ▒█▀▀█ █▀▀█ █▀▀ █░░█ ▒█▀▀█ █░░█ █▀▀█ █▀▀█ █▀▀▄ ░▀░ █▀▀█ █▀▀▄ 
@@ -50,7 +50,7 @@ function show_welcome_message() {
     echo "  -h, --help             Display this help message"
 }
 
-# Función para realizar el respaldo en MacOS
+# Function to perform backup on MacOS
 function perform_backup_macos() {
     create_backup_directory_macos
 
@@ -72,7 +72,7 @@ function perform_backup_macos() {
     clean_old_backups_macos
 }
 
-# Función para realizar el respaldo en Linux
+# Function to perform backup on Linux
 function perform_backup_linux() {
     create_backup_directory_linux
 
@@ -94,7 +94,7 @@ function perform_backup_linux() {
     clean_old_backups_linux
 }
 
-# Función para realizar la encriptación del respaldo
+# Function to perform backup encryption
 function encrypt_backup() {
     local backup_file="$1"
 
@@ -109,7 +109,7 @@ function encrypt_backup() {
     fi
 }
 
-# Función para crear el directorio de respaldo en MacOS
+# Function to create backup directory on MacOS
 function create_backup_directory_macos() {
     local backup_dir="$DIR_BACKUP_MACOS"
 
@@ -119,7 +119,7 @@ function create_backup_directory_macos() {
     fi
 }
 
-# Función para crear el directorio de respaldo en Linux
+# Function to create backup directory on Linux
 function create_backup_directory_linux() {
     local backup_dir="$DIR_BACKUP_LINUX"
 
@@ -129,7 +129,7 @@ function create_backup_directory_linux() {
     fi
 }
 
-# Función para limpiar respaldos antiguos en MacOS
+# Function to clean old backups on MacOS
 function clean_old_backups_macos() {
     local backup_dir="$DIR_BACKUP_MACOS"
 
@@ -137,7 +137,7 @@ function clean_old_backups_macos() {
     echo "Old backups cleaned."
 }
 
-# Función para limpiar respaldos antiguos en Linux
+# Function to clean old backups on Linux
 function clean_old_backups_linux() {
     local backup_dir="$DIR_BACKUP_LINUX"
 
@@ -145,7 +145,7 @@ function clean_old_backups_linux() {
     echo "Old backups cleaned."
 }
 
-# Procesar argumentos de línea de comandos
+# Process command line arguments
 while [ "$1" != "" ]; do
     case $1 in
         --encrypt )
@@ -191,10 +191,10 @@ while [ "$1" != "" ]; do
     shift
 done
 
-# Mostrar el mensaje de bienvenida
+# Display the welcome message
 show_welcome_message
 
-# Detectar el sistema operativo y realizar el respaldo
+# Detect the operating system and perform the backup
 case "$(uname)" in
     Darwin )
         perform_backup_macos
