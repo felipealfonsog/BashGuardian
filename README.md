@@ -16,6 +16,30 @@ BashGuardian is a powerful bash script for backups and encryption on Unix-like (
 
 <sub>* This is currently an experimental phase where the primary focus is on making the system functional and establishing a practical and logical pathway that aligns with both my vision and the project's goals. It might contain errors, bugs, etc. Many other non-core elements of the project are considered secondary.</sub>
 
+#### Howto 🗝️📂
+
+First download the 
+
+```
+backups_stable.sh
+```
+
+then, 
+
+```
+chmod +x backups_stable.sh
+```
+
+and execute it:
+
+```
+./backups_stable.sh
+```
+
+<sub>
+NOTE: Check out the crontab.txt file to adapt your crontab with your system. 
+</sub>
+
 #### Decrypt and Untar 🗝️📂
 
 To decrypt and untar your files, you can use the following commands:
