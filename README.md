@@ -51,10 +51,12 @@ gpg --decrypt --batch --passphrase passphrase encrypted_file.tar.gz.gpg | tar xz
 
 ```
 gpg --decrypt --batch --passphrase "passphrase" "backup_20230723_000101.tar.gz.gpg" | tar xzvf - --directory "$HOME/Documents/backedup-unencryped
-``````
+```
 
-To extract a simple tarball, e.g. 
+#### To extract a simple tarball, e.g. 
+
 tar -xvzf backups_macos_20231107_050001.tar.gz. 
+
 Command:
 
 ```
